@@ -143,7 +143,7 @@ function render() {
     // Render the word submissions
     model.wordSubmissions.forEach( x => {
         // var wordSubmissions = x.word.split('').map(letterChip);
-        $('#word-submissions').append(wordSubmissionChip(x)).append('<br>');
+        $('#word-submissions').append(wordSubmissionChip(x));
     })
 
 
